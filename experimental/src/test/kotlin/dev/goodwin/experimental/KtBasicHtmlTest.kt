@@ -1,13 +1,13 @@
 package dev.goodwin.experimental
 
-import dev.goodwin.experimental.KtBasicHttp.body
-import dev.goodwin.experimental.KtBasicHttp.head
-import dev.goodwin.experimental.KtBasicHttp.html
-import dev.goodwin.experimental.KtBasicHttp.title
+import dev.goodwin.experimental.KtBasicHtml.body
+import dev.goodwin.experimental.KtBasicHtml.head
+import dev.goodwin.experimental.KtBasicHtml.html
+import dev.goodwin.experimental.KtBasicHtml.title
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class KtBasicHttpTest {
+internal class KtBasicHtmlTest {
 
     @Test
     fun html() {

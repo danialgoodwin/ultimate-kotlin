@@ -1,6 +1,6 @@
 package dev.goodwin.experimental
 
-object KtBasicHttp {
+object KtBasicHtml {
 
     inline fun html(crossinline value: () -> String): String {
         return "<!doctype html>\n<html lang=\"en\">${value.invoke()}\n</html>"
